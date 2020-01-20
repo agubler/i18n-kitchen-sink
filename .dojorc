@@ -1,0 +1,14 @@
+{
+	"build-app": {
+		"locale": "fr",
+		"supportedLocales": [ "en", "de" ],
+		"cldrPaths": [
+			"cldr-data/supplemental/likelySubtags",
+			"cldr-data/supplemental/plurals",
+			"cldr-data/supplemental/ordinals",
+			"cldr-data/main/{locale}/numbers",
+			"cldr-data/main/{locale}/units",
+			"cldr-data/supplemental/numberingSystems"
+		]
+	}
+}
