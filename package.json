@@ -7,13 +7,15 @@
     "build:dev": "dojo build --mode dev"
   },
   "dependencies": {
-    "@dojo/framework": "next",
+    "@dojo/framework": "./dojo-framework-7.0.0-alpha.7.tgz",
     "cldr-data": "^36.0.0",
+    "requirejs-text": "^2.0.15",
     "tslib": "~1.9.1"
   },
   "devDependencies": {
     "@dojo/cli": "^6.0.0",
-    "@dojo/cli-build-app": "next",
+    "@dojo/cli-build-app": "./dojo-cli-build-app-7.0.0-alpha.7.tgz",
+    "@dojo/webpack-contrib": "./dojo-webpack-contrib-7.0.0-alpha.6.tgz",
     "@types/node": "~9.6.5",
     "typescript": "~3.4.5"
   }

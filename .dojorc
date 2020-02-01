@@ -1,7 +1,8 @@
 {
 	"build-app": {
 		"locale": "fr",
-		"supportedLocales": [ "en", "de" ],
+		"supportedLocales": [ "en", "ja" ],
+		"watchExtraFile": ["node_modules/@dojo/framework/**"],
 		"cldrPaths": [
 			"cldr-data/supplemental/likelySubtags",
 			"cldr-data/supplemental/plurals",
